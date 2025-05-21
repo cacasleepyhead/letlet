@@ -8,7 +8,7 @@ st.header("noycayek")
 st.image("IMG_0502.jpeg")
 st.write("\n")
 st.title("aplikasi sederhana")
-st.header("aplikasi mengecrk nilai ganjil/genap")
+st.header("aplikasi mengecek nilai ganjil/genap")
 angka = st.number_input("tulis sebuah angka:", value=0, step=1)
 
 if (angka % 2) == 0:
